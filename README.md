@@ -1,5 +1,5 @@
 # Stephon-Autery-Portfolio
-A portfolio built using UIKit.
+A portfolio built using Node.js, Express, React and the UIKit CSS framework.
 
 css, javascript, UIKit CSS Framwork and JQuery are used.
 
@@ -8,17 +8,18 @@ css, javascript, UIKit CSS Framwork and JQuery are used.
 
 
 ## Technologies Used
+* [UIKit](https://getuikit.com/docs/introduction)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [React.js](https://reactjs.org/)
 * [javaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [UIKit](https://getuikit.com/docs/introduction)
-- React.js
+* [Node.js](https://nodejs.org/en/)
 
 
 ## Deployed Link
 
 * [see live site](https://desolate-hollows-13457.herokuapp.com/)
-* [github repository](https://github.com/StephonAutery/react-portfolio)
+* [github repository](https://github.com/StephonAutery/sautery-react-portfolio)
 
 ## Authors
 
