@@ -3,17 +3,29 @@ import "../util/sla-styles.css";
 
 export default class Eductaion extends Component {
   state = {
-    skills: ["HTML", "CSS", "JavaScript", "AJAX", "JQuery", "Bootstrap", "UIKit", "UI/UX Design", "React/Redux/Hooks","API", "Git", "Node.js", "Express", "Passport", "MySQL", "Transact-SQL", "NoSQL"]
+    skills: ["HTML", "CSS", "JavaScript", "AJAX", "JQuery", "Bootstrap", "UIKit", "UI/UX Design", "React/Redux/Hooks","API", "Git", "Node.js", "Express", "Passport", "MySQL", "Transact-SQL", "NoSQL"],
+    apiTypes: ["REST-APIs", "WebAPIs", "OpenAPIs", "InternalAPIs", "PartnerAPIs"]
   };
 
   showSkills() {
     console.log(this.state.skills);
     console.log(window.innerWidth);
-    console.log("  oooo    ppppp    eeeeee   nn     nn       tttttt    oooo        ww     www     ww   oooo    rrrrrr   kk  kk");
-    console.log(" oo  oo   pp  pp   ee       nnnn   nn         tt     oo  oo        ww   ww ww   ww   oo  oo   rr  rr   kk kk");
-    console.log("oo    oo  ppppp    eeeeee   nn  nn nn         tt    oo    oo        ww ww   ww ww   oo    oo  rrrr     kkkk");
-    console.log(" oo  oo   pp       ee       nn   nnnn         tt     oo  oo          www     www     oo  oo   rr rr    kk kk");
-    console.log("  oooo    pp       eeeeee   nn     nn         tt      oooo            w       w       oooo    rr  rr   kk  kk");
+    console.log("  oooo    ppppp    eeeeee   nn     nn");
+    console.log(" oo  oo   pp  pp   ee       nnnn   nn");
+    console.log("oo    oo  ppppp    eeeeee   nn  nn nn");
+    console.log(" oo  oo   pp       ee       nn   nnnn");
+    console.log("  oooo    pp       eeeeee   nn     nn");
+    console.log("tttttt    oooo");
+    console.log("  tt     oo  oo");
+    console.log("  tt    oo    oo");
+    console.log("  tt     oo  oo");
+    console.log("  tt      oooo");
+    console.log("ww     www     ww   oooo    rrrrr   kk  kk");
+    console.log(" ww   ww ww   ww   oo  oo   rr rr   kk kk");
+    console.log("  ww ww   ww ww   oo    oo  rrrr    kkkk");
+    console.log("   www     www     oo  oo   rr rr   kk kk");
+    console.log("    w       w       oooo    rr  rr  kk  kk");
+
   }
 
   render() {
