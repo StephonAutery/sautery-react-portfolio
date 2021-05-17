@@ -4,11 +4,12 @@ import "../util/sla-styles.css";
 export default class Eductaion extends Component {
   state = {
     skills: ["HTML", "CSS", "JavaScript", "AJAX", "JQuery", "Bootstrap", "UIKit", "UI/UX Design", "React/Redux/Hooks","API", "Git", "Node.js", "Express", "Passport", "MySQL", "Transact-SQL", "NoSQL"],
-    apiTypes: ["REST-APIs", "WebAPIs", "OpenAPIs", "InternalAPIs", "PartnerAPIs"]
+    apiTypes: ["REST-APIs", "WebAPIs", "OpenAPIs", "InternalAPIs", "PartnerAPIs"],
+    npmModules: ["Express", "Express Router", "Passport", "React", "React Router"]
   };
 
   showSkills() {
-    console.log(this.state.skills);
+    console.log(this.state);
     console.log(window.innerWidth);
     console.log("  oooo    ppppp    eeeeee   nn     nn");
     console.log(" oo  oo   pp  pp   ee       nnnn   nn");
