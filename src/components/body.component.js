@@ -3,9 +3,39 @@ import "../util/sla-styles.css";
 
 export default class Eductaion extends Component {
   state = {
-    skills: ["HTML", "CSS", "JavaScript", "AJAX", "JQuery", "Bootstrap", "UIKit", "UI/UX Design", "React/Redux/Hooks","API", "Git", "Node.js", "Express", "Passport", "MySQL", "Transact-SQL", "NoSQL"],
-    apiTypes: ["REST-APIs", "WebAPIs", "OpenAPIs", "InternalAPIs", "PartnerAPIs"],
-    npmModules: ["Express", "Express Router", "Passport", "React", "React Router"]
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "AJAX",
+      "JQuery",
+      "Bootstrap",
+      "UIKit",
+      "UI/UX Design",
+      "React/Redux/Hooks",
+      "API",
+      "Git",
+      "Node.js",
+      "Express",
+      "Passport",
+      "MySQL",
+      "Transact-SQL",
+      "NoSQL",
+    ],
+    apiTypes: [
+      "REST-APIs",
+      "WebAPIs",
+      "OpenAPIs",
+      "InternalAPIs",
+      "PartnerAPIs",
+    ],
+    npmModules: [
+      "Express",
+      "Express Router",
+      "Passport",
+      "React",
+      "React Router",
+    ],
   };
 
   showSkills() {
@@ -26,7 +56,6 @@ export default class Eductaion extends Component {
     console.log("  ww ww   ww ww   oo    oo  rrrr    kkkk");
     console.log("   www     www     oo  oo   rr rr   kk kk");
     console.log("    w       w       oooo    rr  rr  kk  kk");
-
   }
 
   render() {
@@ -40,23 +69,24 @@ export default class Eductaion extends Component {
           </h2>
           <hr />
           <p className="right uk-text-lead">technical skills</p>
-          <p className="right">HTML</p>
           <p className="right">CSS</p>
-          <p className="right">JQuery</p>
+          <p className="right">HTML</p>
+          <p className="right">ASP</p>
           <p className="right">JavaScript</p>
-          <p className="right">AJAX</p>
-          <p className="right">Bootstrap</p>
-          <p className="right">UIKit</p>
-          <p className="right">UI/UX Design</p>
-          <p className="right">React/Redux/Hooks</p>
-          <p className="right">API</p>
-          <p className="right">Git</p>
+          <p className="right">TypeScript</p>
+          <p className="right">React/Redux.js/Hooks</p>
+          <p className="right">C++</p>
+          <p className="right">Python</p>
           <p className="right">Node.js</p>
-          <p className="right">Express</p>
-          <p className="right">Passport</p>
-          <p className="right">MySQL</p>
-          <p className="right">Transact-SQL</p>
+          <p className="right">NPM</p>
+          <p className="right">MongoDB</p>
+          <p className="right">Mongoose</p>
           <p className="right">NoSQL</p>
+          <p className="right">Transact-SQL</p>
+          <p className="right">OOP</p>
+          <p className="right">Veeva CLM</p>
+          <p className="right">Git</p>
+          <p className="right">Adobe Creative Suite</p>
         </div>
 
         <div className="uk-width-1-3 uk-width-large">
@@ -70,8 +100,9 @@ export default class Eductaion extends Component {
             <hr />
             <p className="uk-text-lead">technical skills</p>
             <p>
-              HTML, CSS, JQuery, JavaScript, AJAX, Bootstrap, UIKit, UI/UX Design, React/Redux/Hooks, API, Git,
-              Node.js, Express, Passport, MySQL, Transact-SQL, NoSQL
+              CSS, HTML, JavaScript, TypeScript, ASP, React/Redux.js/Hooks, C++,
+              Python, Node.js, NPM, MongoDB, Mongoose, Transact-SQL, NoSQL,
+              Veeva CLM, OOP, Git, Adobe Creative Cloud Suite.
             </p>
           </div>
 
@@ -80,12 +111,12 @@ export default class Eductaion extends Component {
               objective
             </p>
             <p className="uk-padding uk-padding-remove-bottom uk-padding-remove-top">
-              Seeking employment in a dynamic environment where I can use my
-              years of technology experience to advance business goals. I have
-              development experience using Agile Software Development
-              methodologies, tools and workflows to specify, purchase,
-              configure, manage and secure technology in mid-sized and large
-              production environments.
+              Employment in a dynamic environment where I can use my years of
+              technology experience and my recent Full Stack Developer
+              Certification to advance business goals. I have development
+              experience using Agile Software Development methodologies, tools
+              and workflows to specify, purchase, configure, manage and secure
+              technology in mid-sized and large production environments.
             </p>
             <br />
           </div>
@@ -106,16 +137,35 @@ export default class Eductaion extends Component {
                       <p className="uk-text-success">Homemaker</p>
                       <div className="uk-accordion-content">
                         <p>
-                          •{" "}
+                          •
                           <span className="uk-text-bold">
-                            Primary Caregiver and Household Manager:
-                          </span>{" "}
+                            &nbsp;Primary Caregiver and Household Manager:&nbsp;
+                          </span>
                           Planned meals, scheduled activities, managed
                           healthecare issues and coordinated activities among
                           all members of a family of four, 3 dogs and 12
                           chickens while my Wife traveled 35% - 40% of the year
                           and worked 50 – 60 hours a week as part of her job
                           duties.
+                          <br></br>• Early Childhood Education: Taught both our
+                          children to read and write at 3 years old.
+                          <br></br>• Household Upgrades: Completed daily
+                          household maintenance and a complete overhaul and
+                          upgrade of the garden and irrigation, plumbing, and
+                          electrical systems in a 99 year old Craftsman style
+                          home with documented compliance to city code
+                          requirements.
+                          <br></br>• Swim Team: Volunteer Snack Shop Back of
+                          House (BOH) Manager for four years. Managed all BOH
+                          operations, coordinating with the Kitchen Manager to
+                          organize up to 6 BOH volunteers per meet over the
+                          course of a 12 meet season. Specified and purchased
+                          and prepared all food, supplies and sundries to run 2
+                          grills and 2 cook stations to serve hot breakfast
+                          sandwhiches and tacos on-site during meets resulting
+                          in average profits of up to $900.00 per meet.
+                          Nominated for Swim Team Board of Directors 3 years in
+                          a row.
                         </p>
                         <p>
                           •{" "}
@@ -164,12 +214,13 @@ export default class Eductaion extends Component {
                       <div className="uk-accordion-content">
                         <p>
                           Developed web applications integrating HTML, CSS, ASP,
-                          C++, JavaScript, MSAccess, Transact-SQL and the entire Adobe
-                          Creative Cloud suite of products for a diverse client
-                          base. Developed print, videography and multimedia
-                          campaigns for local non-profits. Rapidly developed
-                          film projects for screening at International Film
-                          Festivals and SAG (Screen Actor’s Guild) productions.
+                          C++, JavaScript, MSAccess, Transact-SQL and the entire
+                          Adobe Creative Cloud suite of products for a diverse
+                          client base. Developed print, videography and
+                          multimedia campaigns for local non-profits. Rapidly
+                          developed film projects for screening at International
+                          Film Festivals and SAG (Screen Actor’s Guild)
+                          productions.
                         </p>
                         <p>
                           <span className="uk-text-bold">
@@ -571,12 +622,8 @@ export default class Eductaion extends Component {
                 </a>
                 <div className="uk-accordion-content">
                   <p>
-                    Father of 2 awesome kids, sewist, musician and animal lover.
-                    I have raised 2 children and I knit and sew clothing for
-                    them as well as playing guitar and Mandolin. I have assisted
-                    in the care, fostering and placement of 62 puppies or
-                    homeless dogs, and raised over $9,500.00 for Leukemia -
-                    Lymphoma cancer research.
+                    Father of 2 awesome kids, sewist, musician, quilter, and
+                    animal lover.
                   </p>
                 </div>
                 <hr></hr>
@@ -587,47 +634,6 @@ export default class Eductaion extends Component {
                   <p className="uk-text-lead">projects</p>
                 </a>
                 <div className="uk-accordion-content">
-                  <ul>
-                    <li>
-                      <h4>
-                        <a
-                          href="https:ucb-batman.herokuapp.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Bay Area Trail Maps and Networking
-                        </a>
-                      </h4>
-                      <p>
-                        B.A.T.M.a.N : is a community hub and a toolset for
-                        outdoor enthusiasts to find new trails, new communities
-                        and new adventures in the Bay-Area. Pick a trail, find
-                        community, get outside!
-                      </p>
-                      <p>
-                        This application is the result of a team effort, the
-                        second project assignment during my recent sudies in the
-                        UC Berkeley Extension's Fullstack Web Developer
-                        curriculum.
-                      </p>
-                      <h5>
-                        <p>
-                          contributors: Stephon Autery, Dan Fellows, Bradley
-                          Davis and Sam "&iexcl;Poppe!" Poppe.
-                        </p>
-                      </h5>
-                      <p>
-                        <a
-                          href="https://github.com/davisbradleyj/ucb-batman"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          GitHub repository
-                        </a>
-                      </p>
-                      <hr />
-                    </li>
-                  </ul>
                   <ul>
                     <li>
                       <h4>
