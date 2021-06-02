@@ -1,7 +1,7 @@
 # Stephon-Autery-Portfolio
 A portfolio built using Node.js, Express, React and the UIKit CSS framework.
 
-css, javascript, UIKit CSS Framwork and JQuery are used.
+css, javascript, UIKit CSS Framwork and JQuery.
 
 ## Site Picture
 ![Site](./public/images/app-snap-shot.PNG)
@@ -18,14 +18,13 @@ css, javascript, UIKit CSS Framwork and JQuery are used.
 
 ## Deployed Link
 
-* [see live site](https://desolate-hollows-13457.herokuapp.com/)
+* [see live site](https://sautery-react-portfolio.herokuapp.com/)
 * [github repository](https://github.com/StephonAutery/sautery-react-portfolio)
 
 ## Authors
 
 * **Stephon Autery** 
 
-- [link to portfolio Site](https://github.com/StephonAutery)
 - [link to LinkedIn](https://www.linkedin.com/in/stephon-a-1bb575198/)
 
 ## License
