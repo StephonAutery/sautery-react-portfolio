@@ -1,13 +1,11 @@
-# Stephon-Autery-Portfolio
+# sautery-react-portfolio
 A portfolio built using Node.js, Express, React and the UIKit CSS framework.
-
-css, javascript, UIKit CSS Framwork and JQuery.
 
 ## Site Picture
 ![Site](./public/images/app-snap-shot.PNG)
 
 
-## Technologies Used
+## Tech
 * [UIKit](https://getuikit.com/docs/introduction)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -25,7 +23,7 @@ css, javascript, UIKit CSS Framwork and JQuery.
 
 * **Stephon Autery** 
 
-- [link to LinkedIn](https://www.linkedin.com/in/stephon-a-1bb575198/)
+- [link to LinkedIn](https://www.linkedin.com/in/stephonautery/)
 
 ## License
 

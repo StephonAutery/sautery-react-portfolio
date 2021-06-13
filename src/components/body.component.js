@@ -129,6 +129,14 @@ export default class Eductaion extends Component {
                 </a>
                 <div className="uk-accordion-content">
                   <ul uk-accordion="true">
+                    <li id="AbbVie">
+                      <a className="uk-accordion-title" href="ChannelAdviser">
+                        May 2021 - Present<br></br>AbbVie Pharmaceuticals<br></br>
+                      </a>
+                      <p className="uk-text-success">Full Stack Developer</p>
+                      <div className="uk-accordion-content">Let's begin here ...</div>
+
+                    </li>
                     <li id="Autery Household">
                       <a className="uk-accordion-title" href="ChannelAdviser">
                         2007 - 2019<br></br>Autery Household<br></br>
