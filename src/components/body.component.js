@@ -100,9 +100,9 @@ export default class Eductaion extends Component {
             <hr />
             <p className="uk-text-lead">technical skills</p>
             <p>
-              CSS, HTML, JavaScript, TypeScript, ASP, React/Redux.js/Hooks, C++,
-              Python, Node.js, NPM, MongoDB, Mongoose, Transact-SQL, NoSQL,
-              Veeva CLM, OOP, Git, Adobe Creative Cloud Suite.
+              HTML, CSS, JavaScript, TypeScript, ASP, React/Redux.js/Hooks, C++,
+              Python, Node.js, NPM, MongoDB, Mongoose, Transact-SQL, NoSQL, OOP,
+              Veeva CRM/CLM, MobileLocker CRM, Git, Adobe Creative Cloud Suite.
             </p>
           </div>
 
