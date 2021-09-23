@@ -1,65 +1,65 @@
-#linkedin {
+/* #linkedin {
   height: 40px;
   width: 40px;
-}
+} */
 
-#name {
+/* #name {
   width: 450px;
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 0px;
   margin-bottom: 0px;
   text-align: center;
-}
+} */
 
-#navbar {
+/* #navbar {
   width: 450px;
-}
+} */
 
-#nav {
+/* #nav {
   margin-top: 0px;
   border-top: 2px solid darkgray;
-}
-
+} */
+/* 
 #footer {
   position: relative;
   padding: 10px;
   text-align: center;
-}
+} */
 
-.bar {
+/* .bar {
   border-bottom: 2px solid lightgray;
-}
+} */
 
-#adobe {
+/* #adobe {
   width: 35px;
   height: 35px;
-}
+} */
 
-#gitHub {
+/* #gitHub {
   width: 35px;
   height: 35px;
-}
+} */
 
-#linkedIn {
+/* #linkedIn {
   width: 50px;
   height: 50px;
-}
+} */
 
-.card {
+/* .card {
   float: left;
   padding: 10px;
-}
+} */
 
-.box {
+/* .box {
   text-align: center;
   display: inline-block;
   padding-top: 0px;
-}
+} */
 
-p {
+/* p {
   padding: -10px;
-}
+} */
 
 a,
 a:hover,
@@ -68,22 +68,23 @@ a:visited {
   text-decoration: none;
 }
 
-.center {
-  /* text-align: center; */
+/* .center {
+  text-align: center;
   width: 600px;
   margin: auto;
-  /* width: 50%; */
+  width: 50%;
   padding: 10px;
-}
+} */
 
 .right {
   text-align: right;
 }
 
-#statement {
+/* #statement {
   margin-bottom: -50px;
-}
-.HorizontalLine {
+} */
+
+/* .HorizontalLine {
   width: 50%;
   text-align: center;
-}
+} */
