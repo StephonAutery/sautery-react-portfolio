@@ -2,12 +2,20 @@ import React from "react";
 
 export default function TruthsComponent(props) {
   return (
-    <>
-      <h2 className="uk-width-xlarge">
-        <p className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-text-lead">
-          Truth
+    <div className="uk-grid uk-visible@m">
+      <div id="truth-tall" className="uk-width-1-2">
+        <h2 className="uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
+          <p className="right uk-text-nowrap">Stephon Autery - Mobile</p>
+        </h2>
+        <hr />
+        <p className="right">Uncommon HomeComing</p>
+        <p className="right">Measure LL Campaign</p>
+        <p className="right">
+          2001 - Kenny Roby<br></br>Live at the Underground - Durham, NC
         </p>
-      </h2>
+      </div>
+
+      <div id="truths" className="uk-width-large uk-padding-small">
 
       <p className="uk-text-lead uk-padding-small uk-padding-remove-bottom">
         UnCommon Law - UnCommon Homecoming
@@ -124,6 +132,7 @@ export default function TruthsComponent(props) {
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen"
       ></iframe>
-    </>
+      </div>
+    </div>
   );
 }

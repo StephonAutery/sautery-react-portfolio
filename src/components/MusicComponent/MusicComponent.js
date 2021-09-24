@@ -3,10 +3,10 @@ import SongsComponent from "./SongsComponent";
 import SongsCompactComponent from "./SongsCompactComponent";
 
 export default function MusicComponent(props) {
-    return (
-      <>
-        <SongsCompactComponent />
-        <SongsComponent />
-      </>
-    );
+  return (
+    <>
+      <SongsCompactComponent />
+      <SongsComponent />
+    </>
+  );
 }

@@ -16,9 +16,19 @@ export default function SongsCompactComponent(props) {
           At The Pallet Space - John Murgueitio
         </p>
         <iframe
-          className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom"
+          className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-hidden@s"
           width="320"
           height="180"
+          src="https://www.youtube.com/embed/2g0RO5KD_Xo"
+          title="At the Pallet Space - John Murgueitio"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-visible@s"
+          width="380"
+          height="214"
           src="https://www.youtube.com/embed/2g0RO5KD_Xo"
           title="At the Pallet Space - John Murgueitio"
           frameBorder="0"
