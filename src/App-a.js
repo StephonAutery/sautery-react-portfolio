@@ -4,7 +4,7 @@ import { ResumeComponent } from "./components/ResumeComponent";
 import { TruthComponent } from "./components/TruthComponent";
 import { FictionComponent } from "./components/FictionComponent";
 import { MusicComponent } from "./components/MusicComponent";
-// import { ContactComponent } from "./components/ContactComponent";
+import { ContactComponent } from "./components/ContactComponent";
 import { FooterComponent } from "./components/FooterComponent";
 
 function App() {
@@ -37,6 +37,11 @@ function App() {
                 Music
               </Link>
             </li>
+            <li>
+              <Link className="uk-text-muted" to="/contact">
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
@@ -50,6 +55,9 @@ function App() {
           </Route>
           <Route path="/music">
             <MusicComponent />
+          </Route>
+          <Route path="/contact">
+            <ContactComponent />
           </Route>
           <Route path="/">
             <ResumeComponent />

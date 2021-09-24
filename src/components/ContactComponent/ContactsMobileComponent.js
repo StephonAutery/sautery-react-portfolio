@@ -2,7 +2,15 @@ import React from "react";
 
 export default function ContactsComponent(props) {
   return (
-    <>
+    <div className="uk-grid uk-flex-center uk-padding-small uk-hidden@m">
+      <div className="uk-padding-small uk-width-large uk-padding-remove-top">
+        <h2 className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
+          <p>Stephon Autery</p>
+        </h2>
+        <hr className="HorizontalLine"></hr>
+        <p className="uk-padding-small uk-text-lead uk-padding-remove-bottom uk-padding-remove-top">
+          Fiction
+        </p>
       <script
         src="https://www.google.com/recaptcha/api.js"
         async
@@ -46,6 +54,7 @@ export default function ContactsComponent(props) {
           ></div>
         </fieldset>
       </form>
-    </>
+      </div>
+    </div>
   );
 }

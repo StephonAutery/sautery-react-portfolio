@@ -2,7 +2,24 @@ import React from "react";
 
 export default function ContactsComponent(props) {
   return (
-    <>
+    <div className="uk-grid uk-visible@m">
+
+      <div id="fiction-tall" className="uk-width-1-2">
+        <h2 className="uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
+          <p className="right uk-text-nowrap">Stephon Autery</p>
+        </h2>
+        <hr />
+        <p className="right uk-text-lead">
+          Fiction</p>
+        <p className="right">48 Hour Film Festival - I Miss You When I'm Gone</p>
+        <p className="right">48 Hour Film Festival - Are you safe?</p>
+      </div>
+
+      
+      <div>
+
+
+
       <script
         src="https://www.google.com/recaptcha/api.js"
         async
@@ -46,6 +63,7 @@ export default function ContactsComponent(props) {
           ></div>
         </fieldset>
       </form>
-    </>
+      </div>
+    </div>
   );
 }
