@@ -19,9 +19,7 @@ export default function SectionsComponent(props) {
                 </span>
                 <div className="uk-accordion-content">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Full Stack Developer of interactive medical content.
                   </p>
                 </div>
                 <hr className="HorizontalLine"></hr>
