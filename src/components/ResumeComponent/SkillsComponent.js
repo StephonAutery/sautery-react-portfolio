@@ -1,49 +1,10 @@
 import React from "react";
-import { ObjectiveComponent } from "../ObjectiveComponent";
-import { SectionsComponent } from "../SectionsComponent";
+import ObjectiveComponent from "./ObjectiveComponent";
+import SectionsComponent from "./SectionsComponent";
 import "../../util/sla-styles.css";
 
-export default class SkillsComponent extends React.Component {
-  componentDidMount() {
-    this.setState({
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "AJAX",
-        "JQuery",
-        "Bootstrap",
-        "UIKit",
-        "UI/UX Design",
-        "React/Redux/Hooks",
-        "API",
-        "Git",
-        "Node.js",
-        "Express",
-        "Passport",
-        "MySQL",
-        "Transact-SQL",
-        "NoSQL",
-      ],
-      apiTypes: [
-        "REST-APIs",
-        "WebAPIs",
-        "OpenAPIs",
-        "InternalAPIs",
-        "PartnerAPIs",
-      ],
-      npmModules: [
-        "Express",
-        "Express Router",
-        "Passport",
-        "React",
-        "React Router",
-      ],
-    });
-  }
-
-  render() {
-    return (
+export default function SkillsComponent(props) {
+      return (
       <div className="uk-grid uk-visible@m">
         <div id="tech-skills-tall" className="uk-width-1-2">
           <h2 className="">
@@ -77,5 +38,4 @@ export default class SkillsComponent extends React.Component {
         </div>
       </div>
     );
-  }
 }

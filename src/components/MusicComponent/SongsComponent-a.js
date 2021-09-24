@@ -3,20 +3,8 @@ import React from "react";
 export default function SongsComponent(props) {
   return (
     <div className="uk-grid uk-visible@m">
-
-      <div id="fiction-tall" className="uk-width-1-2">
-        <h2 className="uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
-          <p className="right uk-text-nowrap">Stephon Autery</p>
-        </h2>
-        <hr />
-        <p className="right">At the Pallet Space - John Murgueitio</p>
-        <p className="right">At the Pallet Space - Mykee Ramen</p>
-        <p className="right">Kenny Roby - Rather Not Know</p>
-        <p className="right">Kenny Roby - Talk to the Animals</p>
-      </div>
-
-      <div id="songs" className="uk-width-large uk-padding-small">
-        <h2 className="uk-width-large">
+      <div id="music-tall" className="uk-width-1-3">
+        <h2 className="uk-width-xlarge">
           <p className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-text-lead">
             Music
           </p>
@@ -41,7 +29,7 @@ export default function SongsComponent(props) {
         <p className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
           <strong>Gear:</strong>
           <br></br>
-          2 Canon 5D MkIII, Canon Glass. Manfrotto supports.
+          Canon C100 MkII, 2 Canon 5D MkIII, Canon Glass. Manfrotto supports.
           Apurture lighting. Sennheiser mics.
         </p>
         <hr className="HorizontalLine"></hr>
@@ -65,11 +53,9 @@ export default function SongsComponent(props) {
         <p className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
           <strong>Gear:</strong>
           <br></br>
-          2 Canon 5D MkIII, Canon Glass. Manfrotto supports.
+          Canon C100 MkII, 2 Canon 5D MkIII, Canon Glass. Manfrotto supports.
           Apurture lighting. Sennheiser mics.
         </p>
-        <hr className="HorizontalLine"></hr>
-
         <p className="uk-text-lead uk-padding-small uk-padding-remove-bottom">
           Kenny Roby - Rather Not Know
         </p>
@@ -83,11 +69,6 @@ export default function SongsComponent(props) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <p className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
-          <strong>Gear:</strong>
-          <br></br>
-          Sony PD-150, 2 Sony TRV-17. Manfrotto supports. Sennheiser mics.
-        </p>
 
         <hr className="HorizontalLine"></hr>
 
@@ -105,11 +86,6 @@ export default function SongsComponent(props) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <p className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
-          <strong>Gear:</strong>
-          <br></br>
-          Sony PD-150, 2 Sony TRV-17. Manfrotto supports. Sennheiser mics.
-        </p>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-function ObjectiveComponent(props) {
+export default function ObjectiveComponent(props) {
     return (
       <>
         <div id="objective" className="uk-padding-small">
@@ -20,5 +20,3 @@ function ObjectiveComponent(props) {
       </>
     );
 }
-
-export default ObjectiveComponent;

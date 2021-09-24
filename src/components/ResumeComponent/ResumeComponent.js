@@ -1,11 +1,6 @@
 import React from "react";
-import { SkillsComponent } from "../SkillsComponent";
-import { SkillsCompactComponent } from "../SkillsCompactComponent";
-// import { ObjectiveComponent } from "../ObjectiveComponent";
-// import { ProfessionalComponent } from "../ProfessionalComponent";
-// import { EducationComponent } from "../EducationComponent";
-// import { PersonalComponent } from "../PersonalComponent";
-// import { ProjectsComponent } from "../ProjectsComponent";
+import SkillsComponent from "./SkillsComponent";
+import SkillsCompactComponent from "./SkillsCompactComponent";
 
 export default class ResumeComponent extends React.Component {
   constructor(props) {
@@ -14,9 +9,57 @@ export default class ResumeComponent extends React.Component {
       showPro: true,
     };
   }
+  componentDidMount() {
+    this.setState({
+      skills: [
+        "MERN Stack",
+        "LAMP Stack",
+        "UI/UX Design",
+        "OOP",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "AJAX",
+        "Bootstrap",
+        "UIKit",
+        "ASP",
+        "React/Redux/Hooks",
+        "JQuery",
+        "JavaScript",
+        "Express",
+        "Passport",
+        "Node.js",
+        "RESTful API",
+        "Mongoose",
+        "MongoDB",
+        "NoSQL",
+        "MySQL",
+        "Transact-SQL",
+        "NPM",
+        "Git",
+        "Veeva CRM/CLM",
+        "MobileLocker CLM/API",
+        "Adobe Creative Suite",
+      ],
+      apiTypes: [
+        "RESTful APIs",
+        "WebAPIs",
+        "OpenAPIs",
+        "InternalAPIs",
+        "PartnerAPIs",
+      ],
+      npmModules: [
+        "Express",
+        "Express Router",
+        "Passport",
+        "React",
+        "React Router",
+      ],
+    });
+  }
 
   showSkills() {
-    console.info(this.state);
+    console.log(this.state);
     console.log("  oooo    ppppp    eeeeee   nn     nn");
     console.log(" oo  oo   pp  pp   ee       nnnn   nn");
     console.log("oo    oo  ppppp    eeeeee   nn  nn nn");
