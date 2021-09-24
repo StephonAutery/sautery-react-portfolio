@@ -3,7 +3,7 @@ import React from "react";
 export default function SectionsComponent(props) {
   return (
     <>
-      <ul uk-accordion="" className="uk-padding-small">
+      <ul uk-accordion="" className="uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
         {/* ######   Professional Experience */}
         <li>
           <span className="uk-accordion-title uk-text-lead">

@@ -15,7 +15,6 @@ export default function ObjectiveComponent(props) {
             workflows to specify, purchase, configure, manage and secure
             technology in mid-sized and large production environments.
           </p>
-          <br />
         </div>
       </>
     );
