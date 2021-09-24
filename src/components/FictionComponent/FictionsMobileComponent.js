@@ -1,23 +1,17 @@
 import React from "react";
 
-export default function FictionsComponent(props) {
+export default function FictionsMobileComponent(props) {
   return (
-    <div className="uk-grid uk-visible@m">
-
-      <div id="fiction-tall" className="uk-width-1-2">
-        <h2 className="uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
-          <p className="right uk-text-nowrap">Stephon Autery</p>
+    <div className="uk-grid uk-flex-center uk-padding-small uk-hidden@m">
+      <div className="uk-padding-small uk-width-large uk-padding-remove-top">
+        <h2 className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
+          <p>Stephon Autery</p>
         </h2>
-        <hr />
-        <p className="right uk-text-lead">
-          Fiction</p>
-        <p className="right">48 Hour Film Festival - I Miss You When I'm Gone</p>
-        <p className="right">At the Pallet Space - Mykee Ramen</p>
-        <p className="right">Kenny Roby - Rather Not Know</p>
-        <p className="right">Kenny Roby - Talk to the Animals</p>
-      </div>
+        <hr className="HorizontalLine"></hr>
+        <p className="uk-padding-small uk-text-lead uk-padding-remove-bottom uk-padding-remove-top">
+          Fiction
+        </p>
 
-      <div id="songs" className="uk-width-large uk-padding-small">
         <p className="uk-text-lead uk-padding-small uk-padding-remove-bottom">
           48 Hour Film Festival - I Miss You When You're Gone
         </p>
@@ -56,6 +50,8 @@ export default function FictionsComponent(props) {
           Canon C100 MkII, 2 Canon 5D MkIII, Canon Glass. Manfrotto supports.
           Apurture lighting. Sennheiser mics.
         </p>
+        <hr className="HorizontalLine"></hr>
+        {/* <script src="https://player.vimeo.com/api/player.js"></script> */}
       </div>
     </div>
   );

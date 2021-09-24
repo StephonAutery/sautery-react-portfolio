@@ -4,11 +4,13 @@ export default function SongsComponent(props) {
   return (
     <div className="uk-grid uk-visible@m">
 
-      <div id="fiction-tall" className="uk-width-1-2">
+      <div id="music-tall" className="uk-width-1-2">
         <h2 className="uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
           <p className="right uk-text-nowrap">Stephon Autery</p>
         </h2>
         <hr />
+        <p className="right uk-text-lead">
+          Music</p>
         <p className="right">At the Pallet Space - John Murgueitio</p>
         <p className="right">At the Pallet Space - Mykee Ramen</p>
         <p className="right">Kenny Roby - Rather Not Know</p>
@@ -16,13 +18,8 @@ export default function SongsComponent(props) {
       </div>
 
       <div id="songs" className="uk-width-large uk-padding-small">
-        <h2 className="uk-width-large">
-          <p className="uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-text-lead">
-            Music
-          </p>
-        </h2>
 
-        <p className="uk-text-lead uk-padding-small uk-padding-remove-bottom">
+        <p className="uk-text-lead uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
           At The Pallet Space - John Murgueitio
         </p>
         <iframe
