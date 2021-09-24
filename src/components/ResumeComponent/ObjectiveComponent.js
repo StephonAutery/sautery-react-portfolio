@@ -3,7 +3,7 @@ import React from "react";
 export default function ObjectiveComponent(props) {
     return (
       <>
-        <div id="objective" className="uk-padding-small">
+        <div id="objective" className="uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
           <p className="uk-text-lead">
             Objective
           </p>

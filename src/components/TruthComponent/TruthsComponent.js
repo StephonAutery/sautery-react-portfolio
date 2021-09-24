@@ -5,9 +5,11 @@ export default function TruthsComponent(props) {
     <div className="uk-grid uk-visible@m">
       <div id="truth-tall" className="uk-width-1-2">
         <h2 className="uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
-          <p className="right uk-text-nowrap">Stephon Autery - Mobile</p>
+          <p className="right uk-text-nowrap">Stephon Autery</p>
         </h2>
         <hr />
+        <p className="right uk-text-lead">
+          Truth</p>
         <p className="right">Uncommon HomeComing</p>
         <p className="right">Measure LL Campaign</p>
         <p className="right">
@@ -15,9 +17,9 @@ export default function TruthsComponent(props) {
         </p>
       </div>
 
-      <div id="truths" className="uk-width-large uk-padding-small">
+      <div id="truths" className="uk-width-large uk-padding-small uk-padding-remove-top">
 
-      <p className="uk-text-lead uk-padding-small uk-padding-remove-bottom">
+      <p className="uk-text-lead uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
         UnCommon Law - UnCommon Homecoming
       </p>
       <iframe

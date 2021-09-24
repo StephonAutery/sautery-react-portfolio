@@ -32,7 +32,7 @@ export default function SkillsComponent(props) {
           <p className="right">MobileLocker CLM</p>
           <p className="right">Adobe Creative Suite</p>
         </div>
-        <div id="resume" className="uk-width-large uk-padding-small">
+        <div id="resume" className="uk-width-large uk-padding-small uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
           <ObjectiveComponent />
           <SectionsComponent />
         </div>

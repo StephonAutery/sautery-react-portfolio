@@ -9,7 +9,7 @@ export default function TruthComponent(props) {
         </h2>
         <hr className="HorizontalLine"></hr>
         <p className="uk-padding-small uk-text-lead uk-padding-remove-bottom uk-padding-remove-top">
-          Music
+          Truth
         </p>
 
 <p className="uk-text-lead uk-padding-small uk-padding-remove-bottom">

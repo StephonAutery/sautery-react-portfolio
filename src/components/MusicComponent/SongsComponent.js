@@ -17,7 +17,7 @@ export default function SongsComponent(props) {
         <p className="right">Kenny Roby - Talk to the Animals</p>
       </div>
 
-      <div id="songs" className="uk-width-large uk-padding-small">
+      <div id="songs" className="uk-width-large uk-padding-small uk-padding-remove-top">
 
         <p className="uk-text-lead uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
           At The Pallet Space - John Murgueitio

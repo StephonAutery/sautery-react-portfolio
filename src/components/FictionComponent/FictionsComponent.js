@@ -12,13 +12,11 @@ export default function FictionsComponent(props) {
         <p className="right uk-text-lead">
           Fiction</p>
         <p className="right">48 Hour Film Festival - I Miss You When I'm Gone</p>
-        <p className="right">At the Pallet Space - Mykee Ramen</p>
-        <p className="right">Kenny Roby - Rather Not Know</p>
-        <p className="right">Kenny Roby - Talk to the Animals</p>
+        <p className="right">48 Hour Film Festival - Are you safe?</p>
       </div>
 
-      <div id="songs" className="uk-width-large uk-padding-small">
-        <p className="uk-text-lead uk-padding-small uk-padding-remove-bottom">
+      <div id="songs" className="uk-width-large uk-padding-small uk-padding-remove-top">
+        <p className="uk-text-lead uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
           48 Hour Film Festival - I Miss You When You're Gone
         </p>
         <iframe
