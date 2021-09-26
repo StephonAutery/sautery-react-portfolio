@@ -128,7 +128,7 @@ export default function SectionsComponent(props) {
                     <span className="uk-text-warning">See the Ads here:</span>
                     <br></br>
                     <a
-                      href="http://www.stephonautery.com/truth/truth.asp"
+                      href="http://www.stephonautery.com/truth"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -149,18 +149,6 @@ export default function SectionsComponent(props) {
                     Homecoming event to raise money for UnCommon Law services
                     and operations.
                     <br></br>
-                    <span className="uk-text-warning">
-                      See the posters here:
-                    </span>
-                    <br></br>
-                    <a
-                      href="http://stephonautery.com/UnCommon/posters.asp"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      UnCommon Law Posters
-                    </a>
-                    <br></br>
                     Acted as Producer, Lead Videographer and Director of the
                     UnCommon Law: UnCommon Homecoming event documentary movie.
                     <br></br>
@@ -173,7 +161,7 @@ export default function SectionsComponent(props) {
                     organization's history.
                     <br></br>
                     <a
-                      href="http://www.stephonautery.com/truth/truth.asp"
+                      href="http://www.stephonautery.com/truth"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -196,7 +184,7 @@ export default function SectionsComponent(props) {
                     <span className="uk-text-warning">See the movie here:</span>
                     <br></br>
                     <a
-                      href="http://www.stephonautery.com/fiction/fiction.asp"
+                      href="http://www.stephonautery.com/fiction"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -220,7 +208,7 @@ export default function SectionsComponent(props) {
                     <span className="uk-text-warning">See the movie here:</span>
                     <br></br>
                     <a
-                      href="http://www.stephonautery.com/fiction/fiction.asp"
+                      href="http://www.stephonautery.com/fiction"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -312,7 +300,7 @@ export default function SectionsComponent(props) {
                     • Selected vendors, specified equipment and executed all
                     corporate technology purchases while staying within
                     budgetary constraints resulting in significant savings to
-                    Channel Advisor Corporation.{" "}
+                    Channel Advisor Corporation.git
                   </p>
                   <p>
                     • Hired and managed a 4 person team-oriented Information
