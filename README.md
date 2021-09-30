@@ -16,7 +16,7 @@ A portfolio built using Node.js, Express, React and the UIKit CSS framework.
 
 ## Deployed Link
 
-* [see live site](https://sautery-react-portfolio.herokuapp.com/)
+* [see live site](https://www.stephonautery.com/)
 * [github repository](https://github.com/StephonAutery/sautery-react-portfolio)
 
 ## Authors
