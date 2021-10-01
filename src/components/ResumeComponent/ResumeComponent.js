@@ -1,7 +1,7 @@
 import React from "react";
 import SkillsComponent from "./SkillsComponent";
 import SkillsCompactComponent from "./SkillsCompactComponent";
-import mobilelocker from "mobilelocker-tracking";
+import MobileLocker from "mobilelocker-tracking";
 
 export default class ResumeComponent extends React.Component {
   constructor(props) {
@@ -9,10 +9,10 @@ export default class ResumeComponent extends React.Component {
     this.state = {
       showPro: true,
     };
-  }
+  }s
 
   componentDidMount() {
-    mobilelocker.logEvent('navigate', 'tap', '/resume');
+    MobileLocker.logEvent('navigate', 'tap', '/resume');
     this.setState({
       skills: [
         "MERN Stack",

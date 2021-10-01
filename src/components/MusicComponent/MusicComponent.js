@@ -1,15 +1,17 @@
 import React from "react";
 import SongsComponent from "./SongsComponent";
 import SongsCompactComponent from "./SongsCompactComponent";
-
-mobileData = () => {
-  mobilelocker.logEvent("navigate", "tap", "/music");
-};
+import MobileLocker from "mobilelocker-tracking";
 
 export default function MusicComponent(props) {
-  mobileData();
+  function mobileData() {
+    MobileLocker.logEvent("navigate", "tap", "/music");
+    console.log("mobile.data");
+  }
+
   return (
     <>
+      {mobileData()}
       <SongsCompactComponent />
       <SongsComponent />
     </>

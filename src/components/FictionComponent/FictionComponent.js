@@ -1,19 +1,19 @@
 import React from "react";
 import FictionsComponent from "./FictionsComponent";
 import FictionsMobileComponent from "./FictionsMobileComponent";
-import mobilelocker from "mobilelocker-tracking";
+import MobileLocker from "mobilelocker-tracking";
 
-export default class FictionComponent extends React.Component {
-  componentDidMount() {
-    mobilelocker.logEvent('navigate', 'tap', '/fiction');
+export default function FictionComponent(props) {
+  function mobileData() {
+    MobileLocker.logEvent("navigate", "tap", "/fiction");
+    console.log("mobile.data");
   }
-  
-  render() {
-    return (
-      <>
-        <FictionsMobileComponent />
-        <FictionsComponent />
-      </>
-    );
-  }
+
+  return (
+    <>
+      {mobileData()}
+      <FictionsMobileComponent />
+      <FictionsComponent />
+    </>
+  );
 }

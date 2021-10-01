@@ -105,3 +105,6 @@ dist
 
 # zip files
 *.zip
+
+# mobile locker authent file
+.mobilelocker

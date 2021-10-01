@@ -1,18 +1,19 @@
 import React from "react";
 import TruthsComponent from "./TruthsComponent";
 import TruthsMobileComponent from "./TruthsMobileComponent";
-import mobilelocker from "mobilelocker-tracking";
+import MobileLocker from "mobilelocker-tracking";
 
-export default class TruthComponent extends React.Component {
-  componentDidMount(){
-    mobilelocker.logEvent('navigate', 'tap', '/truth');
-  };
+export default function TruthComponent(props) {
+  function mobileData() {
+    MobileLocker.logEvent("navigate", "tap", "/truth");
+    console.log("mobile.data");
+  }
 
-  render(){
   return (
     <>
+      {mobileData()}
       <TruthsMobileComponent />
       <TruthsComponent />
     </>
   );
-}}
+}
